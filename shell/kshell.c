@@ -1,11 +1,15 @@
+#include "kshell.h"
+#include "../kernel/io.h"
 #include "parser.h"
-#include <string.h>
+
+#define INPUT_SIZE 128
 
 void shell_loop() {
-    char input[128];
-    while(1) {
-        kputs("KryptonDOS@localhost>");       // prompt
-        kgets(input, 128);     // simple input
-        parse_command(input);   // call parser (even if stub)
+    char input[INPUT_SIZE];
+
+    while (1) {
+        kputs("KryptonDOS@localhost>>");        // Display prompt
+        kgets(input, INPUT_SIZE); // Get input from user
+        parse_command(input);    // Send it to parser
     }
 }
