@@ -58,4 +58,4 @@ Expandable Commands for 'dsk':
  - help (List available executable expandabe commands for 'dsk')
 
 # Commands for Moving System from Bootable Installation Drive to Internal Drive
-cuhtransfer - Formats Target Internal Drive and Transfers System from Bootable Installation Drive to Target Internal Drive
+ - cuhtransfer - Formats Target Internal Drive and Transfers System from Bootable Installation Drive to Target Internal Drive
