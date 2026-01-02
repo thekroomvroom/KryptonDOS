@@ -1,4 +1,4 @@
-List of all Executable Commands of KryptonDOS v0.0.1a
+# List of all Executable Commands of KryptonDOS v0.0.1a
 
 # Basic Commands
 krver - Displays the Version of KryptonDOS and its Distribution
