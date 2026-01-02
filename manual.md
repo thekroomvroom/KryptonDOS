@@ -1,12 +1,12 @@
 # List of all Executable Commands of KryptonDOS v0.0.1a
 
 # Basic Commands
-krver - Displays the Version of KryptonDOS and its Distribution
-clear - Clears the Screen of all Commands and Output (Both 'clear' and 'cls' are interchangeable and share the same purpose)
-cls - Similar to 'clear', clears the screen of all Commands and Output (Both 'clear' and 'cls' are interchangeable and share the same purpose)
-dir - Lists Files and Directories in the user's current directory location
-cd - Changes Directory Location
-help - Lists available executable commands
+ - krver - Displays the Version of KryptonDOS and its Distribution
+ - clear - Clears the Screen of all Commands and Output (Both 'clear' and 'cls' are interchangeable and share the same purpose)
+ - cls - Similar to 'clear', clears the screen of all Commands and Output (Both 'clear' and 'cls' are interchangeable and share the same purpose)
+ - dir - Lists Files and Directories in the user's current directory location
+ - cd - Changes Directory Location
+ - help - Lists available executable commands
 
 # Complex Objective Commands
 Groups:
