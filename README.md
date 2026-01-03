@@ -34,5 +34,5 @@ KryptonDOS has a compatibility layer to provide support for **MANY** **MS-DOS** 
  - Internet Support (On hardware with internet support)
  - Built-in Interface Manager (Toggle-able)
 
-## How to use KryptonDOS
+### How to use KryptonDOS
 Type the command 'help' into the shell or refer to `manual.md`
