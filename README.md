@@ -35,4 +35,4 @@ KryptonDOS has a compatibility layer to provide support for **MANY** **MS-DOS** 
  - Built-in Interface Manager (Toggle-able)
 
 ## How to use KryptonDOS
-Type the command 'help' into the shell or refer to |manual.md|
+Type the command 'help' into the shell or refer to `manual.md`
