@@ -21,8 +21,8 @@ No Updates *yet*...
  - Legacy BIOS or UEFI Firmware
 
 # Application Compatibility
-KryptonDOS has a compatibility layer to provide support for **MOST** **MS-DOS** and **FreeDOS-targeted** programs
+KryptonDOS has a compatibility layer to provide support for **MANY** **MS-DOS** and **FreeDOS-targeted** programs
 
-Compatibility may vary; **not all programs are guaranteed to run**.
+⚠️**Disclaimer**: Compatibility may vary; **not all programs are guaranteed to run on KryptonDOS**.
 
 ⚠️***Note***: KryptonDOS is **NOT** a fork of FreeDOS; KryptonDOS is coded from scratch like FreeDOS and uses its own Kernel, Utilities, and ABI Behavior
