@@ -15,14 +15,14 @@
  - cd
  - dsk (Commands for modifying and inspecting External and Internal Storage Devices)
 
-### Expandable Commands for 'sys' (e.g., sys.info):
+#### Expandable Commands for 'sys' (e.g., sys.info):
  - ver (Similar to 'krver', Displays the Version of KryptonDOS and its Distribution)
  - info (Displays the Version of KryptonDOS, its Distribution, and Hardware Specifications)
  - shutdown "{desired time}" [s/min/h/d] (Powers Off the Host)
  - restart "{desired time}" [s/min/h/d] (Reboots the Host)
  - help (Lists available executable expandable commands for 'sys')
 
-### Expandable Commands for 'dir' (e.g., dir.era):
+#### Expandable Commands for 'dir' (e.g., dir.era):
  - wai (Displays your current directory location)
  - era "{target file/directory}" .{file extension (if it's a file)} (Destroys selected file or directory (Add a '"YES"' to the back of the command to bypass confirmation). e.g., dir.era "Personal Files" OR dir.era "image" .png "YES")
  - new "{desired directory name}" (Creates a new Directory (THIS DOES NOT APPLY TO FILES!!!). e.g., dir.new "Work Documents")
@@ -34,12 +34,12 @@
  - info "{target file}" .{file extension} (Displays metadata on the targeted file)
  - help (Lists available executable expandable commands for 'dir')
 
-### Expandable Commands for 'cd':
+#### Expandable Commands for 'cd':
  - .. (Moves back a directory. e.g., cd ?)
  - ? (Similar to 'dir.wai', Displays your current directory location. e.g., cd ?)
  - help (Lists available executable expandable commands for 'cd')
 
-### Expandable Commands for 'dsk':
+#### Expandable Commands for 'dsk':
  - list (List all Storage Devices mounted to the Host (add a '"EXTERNAL"' to the back of the command to list only External Storage Devices mounted onto the Host or '"INTERNAL"' to the back of the command to list only Internal Storage Devices mounted onto the Host))
  - eye {target disk number} (Select your targeted Storage Device. e.g., dsk.eye 1)
  - era (Destroys all existing Data, and Partitions to the selected storage device(Add '"YES"' to the back of the command to bypass confirmation). e.g., dsk.era)
@@ -57,5 +57,5 @@
  - nick >> "{desired name}" (Rename Selected Storage Device)
  - help (List available executable expandabe commands for 'dsk')
 
-## Commands for Moving System from Bootable Installation Drive to Internal Drive
+### Commands for Moving System from Bootable Installation Drive to Internal Drive
  - cuhtransfer - Formats Target Internal Drive and Transfers System from Bootable Installation Drive to Target Internal Drive
