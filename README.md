@@ -1,5 +1,3 @@
-<sub>KryptonDOS@github;>readme.md</sub>
-
 # 🌌 KryptonDOS
 A lightweight, open-source, DOS-compatible operating system
 
@@ -36,4 +34,5 @@ KryptonDOS has a compatibility layer to provide support for **MANY** **MS-DOS** 
  - Internet Support (On hardware with internet support)
  - Built-in Interface Manager (Toggle-able)
 
-<sub>KryptonDOS@github;></sub>
+## How to use KryptonDOS
+Type the command 'help' into the shell or refer to |manual.md|
