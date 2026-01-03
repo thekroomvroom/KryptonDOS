@@ -25,4 +25,4 @@ KryptonDOS has a compatibility layer to provide support for **MOST** **MS-DOS** 
 
 Compatibility may vary; **not all programs are guaranteed to run**.
 
-⚠️***Note***: KryptonDOS is **NOT** a fork of FreeDOS; KryptonDOS is coded from scratch like FreeDOS and has a different Kernel, Utilities, and ABI quirks
+⚠️***Note***: KryptonDOS is **NOT** a fork of FreeDOS; KryptonDOS is coded from scratch like FreeDOS and uses its own Kernel, Utilities, and ABI Behavior
