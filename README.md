@@ -30,6 +30,7 @@ KryptonDOS has a compatibility layer to provide support for **MANY** **MS-DOS** 
 > [!NOTE]
 > KryptonDOS is **NOT** a fork of FreeDOS; It is  written from scratch and uses its own Kernel, Utilities, and ABI Behavior
 
+## Extras
 ### What to expect on v1.0.1b:
  - Internet Support (On hardware with internet support)
  - Built-in Interface Manager (Toggle-able)
