@@ -7,7 +7,7 @@ A lightweight, open-source, DOS-compatible operating system
 ## Updates
 No Updates *yet*...
 
-## System Requirements
+## System Requirements 📝 
 ### Recommended System Requirements:
  - x86 or x86_64 Architecture CPU (x86_64 *ONLY* for UEFI Version)
  - CPU ***MUST*** have ***real mode*** support
@@ -30,7 +30,7 @@ KryptonDOS has a compatibility layer to provide support for **MANY** **MS-DOS** 
 > [!NOTE]
 > KryptonDOS is **NOT** a fork of FreeDOS; It is  written from scratch and uses its own Kernel, Utilities, and ABI Behavior
 
-### 🤔 What to expect on v1.0.1b:
+### What to expect on v1.0.1b: 🤔 
  - Internet Support (On hardware with internet support)
  - Built-in Interface Manager (Toggle-able)
 
