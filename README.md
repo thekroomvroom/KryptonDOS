@@ -1,7 +1,8 @@
 # KryptonDOS
-⚠️*Note*: KryptonDOS is still under development, and many things are unstable or aren't working yet!
-
 A lightweight, open-source, DOS-compatible operating system
+
+> [!⚠️NOTE]
+> KryptonDOS is still under development, and many things are unstable or aren't working.
 
 ## Updates
 No Updates *yet*...
