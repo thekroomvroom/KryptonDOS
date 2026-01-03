@@ -30,5 +30,4 @@ KryptonDOS has a compatibility layer to provide support for **MANY** **MS-DOS** 
 # 🤔 What to expect on v1.0.1b:
  - Internet Support (On hardware with internet support)
  - Built-in Interface Manager (Toggle-able)
-
 <sub><sub><sub>That's it! More features maybe coming soon!</sub></sub></sub>
