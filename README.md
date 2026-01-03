@@ -1,5 +1,5 @@
 # 🌌 KryptonDOS
-A lightweight, open-source, DOS-compatible operating system
+KryptonDOS is a lightweight, open-source, DOS-compatible operating system
 
 > [!NOTE]
 > KryptonDOS is still under development, and many things are unstable or aren't working.
