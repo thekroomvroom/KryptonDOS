@@ -25,13 +25,15 @@
 #### **Expandable Commands for 'dir' (e.g., dir.era)**:
  - wai (Displays your current directory location)
  - era "{target file/directory}" .{file extension (if it's a file)} (Destroys selected file or directory (Add a '"YES"' to the back of the command to bypass confirmation). e.g., dir.era "Personal Files" OR dir.era "image" .png "YES")
- - new "{desired directory name}" (Creates a new Directory (THIS DOES NOT APPLY TO FILES!!!). e.g., dir.new "Work Documents")
- - fnew "{desired file name}" .{file extension} (Creates a new File in the user's current Directory Location. e.g., dir.fnew "list" .txt)
+ - new "{desired directory name}" (Creates a new Directory (THIS DOES NOT APPLY TO FILES!!!)(Add "HIDDEN" to the back of the command to make the directory a Hidden Directory). e.g., dir.new "Work Documents")
+ - fnew "{desired file name}" .{file extension} (Creates a new File in the user's current Directory Location (Add "HIDDEN" to the back of the command to make the file a Hidden File). e.g., dir.fnew "list" .txt)
  - move "{file/directory location}" >> "{desired file/directory location}" (Moves file or directory's location. e.g., dir.move "D:\Recorded Tracks\soundtrack.wav" >> "E:\Uploads\" OR dir.move "D:\Backups\My iPhone\Photos\" << "E:\Captures\IMG_1876.jpg")
  - dupe "{file/directory location}" >> "{desired file/directory location}" (Copies file or directory and pastes it to desired directory location)
  - list *.{file extension} (OR) "{file name}" .{file extension} (Locate specific files. e.g., dir.list *.mp4 OR dir.list "bangle" .cad)
+ - "HIDDEN" (Lists all Files and Directories that are Hidden. e.g., dir "HIDDEN")
  - nick "{target file/directory}" .{file extension (if it's a file)} >> "desired label" (Renames targeted file or directory. e.g., dir.nick "Documents" >> "Classified Documents" OR dir.nick "video" .mov >> "my blog")
  - info "{target file}" .{file extension} (Displays metadata on the targeted file)
+ - hide "{target file/directory}" .{file extension (if target is a file)}(Makes selected file/directory a Hidden File/Directory. e.g., dir.hide "README" .md OR dir.hide "D:\Hiddens")
  - help (Lists available executable expandable commands for 'dir')
 
 #### **Expandable Commands for 'cd'**:
