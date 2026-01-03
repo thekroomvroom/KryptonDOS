@@ -19,3 +19,10 @@ No Updates *yet*...
  - 1MB RAM or more
  - 10MB Storage or more (Ensure that the Targeted Storage Device is formatted to FAT12, FAT16, or FAT32)
  - Legacy BIOS or UEFI Firmware
+
+# Application Compatibility
+KryptonDOS has a compatibility layer to provide support for **MOST** **MS-DOS** and **FreeDOS-targeted** programs
+
+Compatibility may vary; **not all programs are guaranteed to run**.
+
+⚠️***Note***: KryptonDOS is **NOT** a fork of FreeDOS; KryptonDOS is coded from scratch like FreeDOS and has a different Kernel, Utilities, and ABI quirks
