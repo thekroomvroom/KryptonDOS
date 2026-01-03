@@ -3,31 +3,31 @@
 
 A lightweight, open-source, DOS-compatible operating system
 
-# Updates
+## Updates
 No Updates *yet*...
 
-# Recommended System Requirements:
+## Recommended System Requirements:
  - x86 or x86_64 Architecture CPU (x86_64 *ONLY* for UEFI Version)
  - CPU ***MUST*** have ***real mode*** support
  - 4-8MB RAM or more
  - 1GB Storage or more (Ensure that the Targeted Storage Device is formatted to FAT12, FAT16, or FAT32)
  - Legacy BIOS or UEFI Firmware
 
-# Minimum System Requirements:
+## Minimum System Requirements:
  - x86 or x86_64 Architecture CPU (x86_64 *ONLY* for UEFI Version)
  - CPU ***MUST*** have ***real mode*** support
  - 1MB RAM or more
  - 10MB Storage or more (Ensure that the Targeted Storage Device is formatted to FAT12, FAT16, or FAT32)
  - Legacy BIOS or UEFI Firmware
 
-# Application Compatibility
+## Application Compatibility
 KryptonDOS has a compatibility layer to provide support for **MANY** **MS-DOS** and **FreeDOS-targeted** programs
 
 ⚠️**Disclaimer**: Compatibility may vary; **not all programs are guaranteed to run on KryptonDOS**.
 
 ⚠️***Note***: KryptonDOS is **NOT** a fork of FreeDOS; It is  written from scratch and uses its own Kernel, Utilities, and ABI Behavior
 
-# 🤔 What to expect on v1.0.1b:
+### 🤔 What to expect on v1.0.1b:
  - Internet Support (On hardware with internet support)
  - Built-in Interface Manager (Toggle-able)
 
