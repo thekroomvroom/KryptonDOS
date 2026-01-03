@@ -30,6 +30,12 @@ KryptonDOS has a compatibility layer to provide support for **MANY** **MS-DOS** 
 > [!NOTE]
 > KryptonDOS is **NOT** a fork of FreeDOS; It is  written from scratch and uses its own Kernel, Utilities, and ABI Behavior
 
+## Release Guide
+ - KryptonDOS Legacy Bios (x86) - For Legacy x32-bit Devices 
+ - KryptonDOS Legacy Bios (x86_64) - For Legacy x64-bit Devices
+ - KryptonDOS UEFI - For Modern x64-bit UEFI Devices
+ - KryptonDOS Update Pack v0.0.1a - Update pack for existing Devices Operating KryptonDOS
+
 ## Extras
 ### How to use KryptonDOS
 Type the command 'help' into the shell or refer to `manual.md`
