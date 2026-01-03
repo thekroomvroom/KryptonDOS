@@ -4,7 +4,7 @@ A lightweight, open-source, DOS-compatible operating system
 > [!NOTE]
 > KryptonDOS is still under development, and many things are unstable or aren't working.
 
-## Updates
+## Updates 🔔
 No Updates *yet*...
 
 ## System Requirements 📝 
@@ -21,7 +21,7 @@ No Updates *yet*...
  - 10MB Storage or more (Ensure that the Targeted Storage Device is formatted to FAT12, FAT16, or FAT32)
  - Legacy BIOS or UEFI Firmware
 
-## Application Compatibility
+## Application Compatibility 🧩
 KryptonDOS has a compatibility layer to provide support for **MANY** **MS-DOS** and **FreeDOS-targeted** programs
 
 ⚠️**Disclaimer**: Compatibility may vary; **not all programs are guaranteed to run on KryptonDOS**.
@@ -30,7 +30,7 @@ KryptonDOS has a compatibility layer to provide support for **MANY** **MS-DOS** 
 > [!NOTE]
 > KryptonDOS is **NOT** a fork of FreeDOS; It is  written from scratch and uses its own Kernel, Utilities, and ABI Behavior
 
-### What to expect on v1.0.1b: 🤔 
+### What to expect on v1.0.1b:
  - Internet Support (On hardware with internet support)
  - Built-in Interface Manager (Toggle-able)
 
