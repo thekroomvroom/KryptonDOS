@@ -33,7 +33,7 @@ KryptonDOS has a compatibility layer to provide support for **MANY** **MS-DOS** 
 ## Release Guide 📓
  - KryptonDOS v0.0.1a Legacy Bios (x86) - Doe x32-bit Devices that use Legacy BIOS
  - KryptonDOS v0.0.1a Legacy Bios (x86_64) - For x64-bit Devices that use Legacy BIOS
- - KryptonDOS v0.0.1a UEFI - For x64-bit UEFI Devices that do not have [CSM](https://en.wikipedia.org/wiki/UEFI#CSM_booting) Support. (Ensure that Secure Boot is Disabled in your Device's UEFI Menu)
+ - KryptonDOS v0.0.1a UEFI - For x64-bit UEFI Devices that **do not have [CSM](https://en.wikipedia.org/wiki/UEFI#CSM_booting) Support**. (Ensure that Secure Boot is Disabled in your Device's UEFI Menu)
 
 ## Extras
 ### How to use KryptonDOS
