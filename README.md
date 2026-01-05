@@ -19,7 +19,7 @@ No Updates *yet*...
  - 10MB Storage
  - Legacy BIOS Firmware
 
-<sub><sub> *KryptonDOS on UEFI only accepts AMD64(x86_64) CPU </sub></sub>
+<sub> *KryptonDOS on UEFI only supports AMD64(x86_64) CPU </sub>
 
 ## Application Compatibility 🧩
 KryptonDOS has a compatibility layer to provide support for **MANY** **MS-DOS** and **FreeDOS-targeted** programs
