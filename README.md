@@ -9,10 +9,10 @@ No Updates *yet*...
 
 ## System Requirements 📝 
 ### Recommended System Requirements:
- - x86 or x86_64 Architecture CPU* with **real mode support**
+ - x86 or AMD64(x86_64) Architecture CPU* with **real mode support**
  - 4-8MB RAM or more
  - 1GB Storage or more
- - Legacy BIOS or UEFI Firmware
+ - Legacy BIOS or UEFI Firmware*<sup>2</sup>
 ### Minimum System Requirements:
  - x86 Architecture CPU with **real mode support**
  - 1MB RAM
@@ -20,6 +20,8 @@ No Updates *yet*...
  - Legacy BIOS Firmware
 
 <sub> *KryptonDOS on UEFI only supports AMD64(x86_64) CPU </sub>
+
+<sub> *<sup>2</sup>Devices with Legacy BIOS and UEFI (beta) are advised to use Legacy BIOS instead of UEFI (beta). </sub>
 
 ## Application Compatibility 🧩
 KryptonDOS has a compatibility layer to provide support for **MANY** **MS-DOS** and **FreeDOS-targeted** programs
