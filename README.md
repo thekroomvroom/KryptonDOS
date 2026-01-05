@@ -19,7 +19,7 @@ No Updates *yet*...
  - CPU ***MUST*** have ***real mode*** support
  - 1MB RAM or more
  - 10MB Storage or more (Ensure that the Targeted Storage Device is formatted to FAT12, FAT16, or FAT32)
- - Legacy BIOS or UEFI Firmware
+ - Legacy BIOS Firmware
 
 ## Application Compatibility 🧩
 KryptonDOS has a compatibility layer to provide support for **MANY** **MS-DOS** and **FreeDOS-targeted** programs
