@@ -33,8 +33,7 @@ KryptonDOS has a compatibility layer to provide support for **MANY** **MS-DOS** 
 ## Release Guide 📓
  - KryptonDOS v0.0.1a Legacy Bios (x86) - For Legacy x32-bit Devices 
  - KryptonDOS v0.0.1a Legacy Bios (x86_64) - For Legacy x64-bit Devices
- - KryptonDOS v0.0.1a UEFI - For Modern x64-bit UEFI Devices
- - KryptonDOS Update Pack v0.0.1a - Update pack for existing Devices Operating KryptonDOS
+ - KryptonDOS v0.0.1a UEFI (AMD64) - For Modern x64-bit UEFI Devices
 
 ## Extras
 ### How to use KryptonDOS
