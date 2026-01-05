@@ -15,11 +15,13 @@ No Updates *yet*...
  - 1GB Storage or more (Ensure that the Targeted Storage Device is formatted to FAT12, FAT16, or FAT32)
  - Legacy BIOS or UEFI Firmware
 ### Minimum System Requirements:
- - x86 or x86_64 Architecture CPU (x86_64 *ONLY* for UEFI Version)
+ - x86 Architecture CPU
  - CPU ***MUST*** have ***real mode*** support
  - 1MB RAM or more
  - 10MB Storage or more (Ensure that the Targeted Storage Device is formatted to FAT12, FAT16, or FAT32)
  - Legacy BIOS Firmware
+
+<sub><sub><sub> KryptonDOS on UEFI only accepts AMD64 </sub></sub></sub>
 
 ## Application Compatibility 🧩
 KryptonDOS has a compatibility layer to provide support for **MANY** **MS-DOS** and **FreeDOS-targeted** programs
