@@ -40,7 +40,3 @@ KryptonDOS has a compatibility layer to provide support for **MANY** **MS-DOS** 
 ## Extras
 ### How to use KryptonDOS
 Type the command 'help' into the shell or refer to `manual.md`
-
-### What to expect on v1.0.1b:
- - Internet Support (On hardware with internet support)
- - Built-in Interface Manager (Toggle-able)
