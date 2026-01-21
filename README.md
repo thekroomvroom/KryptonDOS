@@ -44,5 +44,3 @@ Type the command 'help' into the shell or refer to `manual.md`
 ### What to expect on v1.0.1b:
  - Internet Support (On hardware with internet support)
  - Built-in Interface Manager (Toggle-able)
-
-<sub><sup>Check out [KryptonBSD](https://github.com/thekroomvroom/KryptonBSD.git) now!</sup></sub>
