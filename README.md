@@ -21,7 +21,7 @@ No Updates *yet*...
 
 <sub> *KryptonDOS on UEFI only supports AMD64(x86_64) CPU </sub>
 
-<sub> *<sup>2</sup>Devices with Legacy BIOS and UEFI (beta) are advised to use Legacy BIOS instead of UEFI (beta). </sub>
+<sub> *<sup>2</sup>Devices with UEFI (beta) are advised to use Legacy BIOS instead of UEFI (beta). </sub>
 
 ## Application Compatibility 🧩
 KryptonDOS has a compatibility layer to provide support for **MANY** **MS-DOS** and **FreeDOS-targeted** programs
