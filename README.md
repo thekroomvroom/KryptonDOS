@@ -40,3 +40,5 @@ KryptonDOS has a compatibility layer to provide support for **MANY** **MS-DOS** 
 ## Extras
 ### How to use KryptonDOS
 Type the command 'help' into the shell or refer to `manual.md`
+
+try [cross](https://ecuwasm-12--TaoYueqi.replit.app)
