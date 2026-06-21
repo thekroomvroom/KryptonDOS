@@ -9,6 +9,7 @@ pwd = sys.argv[4]
 
 dirpath = os.path.join(os.path.dirname(os.path.abspath(__file__)), "dir")
 
+
 try:
     sstructpath = os.path.join(dirpath, f"{sstruct}.py")
     if not os.path.exists(sstructpath):

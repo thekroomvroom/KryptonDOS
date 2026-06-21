@@ -1,42 +1,7 @@
 # 🌌 KryptonDOS
-KryptonDOS is a lightweight, open-source, DOS-compatible operating system
+KryptonDOS is a CLI Python Shell
 
-> [!NOTE]
-> KryptonDOS is still under development, and many things are unstable or aren't working.
-
-## Updates 🔔
-No Updates *yet*...
-
-## System Requirements 📝 
-### Recommended System Requirements:
- - x86 or AMD64(x86_64) Architecture CPU* with **real mode support**
- - 4-8MB RAM or more
- - 1GB Storage or more
- - Legacy BIOS or UEFI Firmware*<sup>2</sup>
-### Minimum System Requirements:
- - x86 Architecture CPU with **real mode support**
- - 1MB RAM
- - 10MB Storage
- - Legacy BIOS Firmware
-
-<sub> *KryptonDOS on UEFI only supports AMD64(x86_64) CPU </sub>
-
-<sub> *<sup>2</sup>Devices with UEFI (beta) are advised to use Legacy BIOS instead of UEFI (beta). </sub>
-
-## Application Compatibility 🧩
-KryptonDOS has a compatibility layer to provide support for **MANY** **MS-DOS** and **FreeDOS-targeted** programs
-
-⚠️**Disclaimer**: Compatibility may vary; **not all programs are guaranteed to run on KryptonDOS**.
-
-
-> [!NOTE]
-> KryptonDOS is **NOT** a fork of FreeDOS; It is  written from scratch and uses its own Kernel, Utilities, and ABI Behavior
-
-## Release Guide 📓
- - KryptonDOS v0.0.1a Legacy Bios (x86) - Doe x32-bit Devices that use Legacy BIOS
- - KryptonDOS v0.0.1a Legacy Bios (x86_64) - For x64-bit Devices that use Legacy BIOS
- - KryptonDOS v0.0.1a UEFI - For x64-bit UEFI Devices that **do not have [CSM](https://en.wikipedia.org/wiki/UEFI#CSM_booting) Support**. (Ensure that Secure Boot is Disabled in your Device's UEFI Menu)
-
-## Extras
-### How to use KryptonDOS
-Type the command 'help' into the shell or refer to `manual.md`
+## Update log
+6/21/26:
+ - `era.py`: Added Integrity Protection, Multi-File Handling Ability, and Bug Fixes
+ - `fnew.py`: Added Integrity Protection, Multi-File Handling Ability, and Bug Fixes
