@@ -29,18 +29,18 @@ else:
             else:
                 cr = os.path.join(cwd, crls)
 
-            # Integrity Check
+        # Integrity Check
 
         rcr = os.path.realpath(cr)
         rrdir = os.path.realpath(rdir)
         radir = os.path.realpath(adir)
 
         if rcr.startswith(rrdir + os.sep) or rcr.startswith(radir + os.sep) or rcr == rrdir or rcr == radir:
-            print(f"era: {rkill if os.name == 'nt' else "C:" + rcr.replace("/", "\\")}; Hit Refused.")
+            print(f"fnew: {rcr if os.name == 'nt' else "C:" + rcr.replace("/", "\\")}; Operation not Permitted.")
 
-
-        try:
-            open(cr, "x").close()
-            print("Success.")
-        except Exception as e:
-            print(e)
+        else:
+            try:
+                open(rcr, "x").close()
+                print("Success.")
+            except Exception as e:
+                print(e)

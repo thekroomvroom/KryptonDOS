@@ -112,7 +112,7 @@ while loop == True:
         elif sstruct == '':
             if todo == '..':
                 try: 
-                   os.chdir(os.path.dirname(cwd))
+                    os.chdir(os.path.dirname(cwd))
                 except Exception:
                     print("Directory Specified Does Not Exist.")
             elif todo == '..\\..':
@@ -172,5 +172,3 @@ while loop == True:
             print("Doesnt Ring a Bell.")
         elif rand == 3:
             print("Doesnt Work.")
-
-print(f"<<{sys.name} Shell Local Annoucement>> Exit Success")

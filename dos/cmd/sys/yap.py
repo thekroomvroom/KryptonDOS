@@ -8,5 +8,3 @@ if ">>" in todo or " >> " in todo:
     inj = todo.split(">>")
     for i in range(len(inj)):
         print(f"{inj[int(i)]} ", end="") 
-
-os.system("echo python is a bitch")
