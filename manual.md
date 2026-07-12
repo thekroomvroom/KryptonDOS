@@ -6,9 +6,14 @@
 - dir - Lists Files and Directories in the user's current directory location
 - cd - Changes Directory Location
 - time - displays time
-- logout - signs out of the current logged-in user
+- exit
 
-## Complex Objective Commands ⚙
+## Namespaced Commands ⚙
+
+Namespaced Commands organize related functionality under a shared namespace.
+Commands follow the syntax:
+
+group.subcommand [arguments]
 
 ### Groups
 
@@ -17,23 +22,23 @@
 - time (Commands for time-related actions)
 - net
 
-#### **Expandable Commands for 'sys' (e.g., sys.info)**
+#### **Subcommands for 'sys'**
 
-- abt (Similar to 'krver', Displays the Version of KryptonDOS and its Distribution)
-- yap (like echoes)
+- abt **
+- yap
 
-#### **Expandable Commands for 'dir' (e.g., dir.era)**
+#### **Subcommands for 'dir'**
 
 - wai (Displays your current directory location)
-- era {target file/directory}
-- new {desired directory name}
-- fnew {desired file name}
-- mv "{file/directory location}" >> "{desired file/directory location}"
+- era {target file/directory} **
+- new {desired directory name} **
+- fnew {desired file name} **
+- rc {file/directory location} {desired file/directory location}
 - dupe
-- nick
 - info
+- bin
 
-#### **Expandable Commands for 'time'**
+#### **Subcommands for 'time'**
 
 - rf (reformats time format to your liking, follow the UI)
 - full
