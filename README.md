@@ -9,6 +9,9 @@ The KryptonDOS Project is inspired by Microsoft Disk Operating System (MS-DOS) a
 > #### Tired of Reading?
 > Click [here](#how-to-get-started) to get started.
 
+> [!Warning]
+> Certain functions and commands have not be implemented yet. It is advisable to use this software at your own risk.
+
 ## Technologies used
 
 ### Python 3 🐍
