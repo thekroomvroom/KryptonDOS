@@ -148,7 +148,7 @@ while loop == True:
             if not os.path.exists(mdir):
                 raise FileExistsError
             else:
-                runtimelog = subprocess.run(["python3", mdir, sstruct, todo, cwd, pwd])
+                runtimelog = subprocess.run(["py" if os.name == 'nt' else "python3", mdir, sstruct, todo, cwd, pwd])
         except FileExistsError:
             try:
                 appdir = os.path.join(os.path.dirname(odir), "app")
@@ -157,7 +157,7 @@ while loop == True:
                 if not os.path.exists(apppath):
                     raise FileExistsError
                 else:
-                    runtimelog = subprocess.run(["python3", apppath, sstruct, todo, cwd])
+                    runtimelog = subprocess.run(["py" if os.name == 'nt' else "python3", apppath, sstruct, todo, cwd])
             except FileExistsError:
                 err = True
 

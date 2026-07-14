@@ -14,6 +14,6 @@ try:
     if not os.path.exists(sstructpath):
         raise FileNotFoundError
     else:
-        subprocess.run(["python3", sstructpath, todo, cwd, pwd, timepath])
+        subprocess.run(["py" if os.name == 'nt' else "python3", sstructpath, todo, cwd, pwd, timepath])
 except FileNotFoundError:
     sys.exit(1)

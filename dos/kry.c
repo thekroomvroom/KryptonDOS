@@ -44,19 +44,19 @@ int main() {
     char krydir[4096]; char cmd [5000];
 
     if (type == 1) {
-        //char path[MAX_PATH];
-        //GetModuleFileNameA(NULL, path, MAX_PATH);
-        //char *lastSlash = strrchr(path, '\\');
-        //if (lastSlash) {
-        //    *(lastSlash + 1) = '\0';
-        //} char filePath[MAX_PATH];
-        //snprintf(filePath, MAX_PATH, "%sdos\\krypton.py", path);
+        char path[MAX_PATH];
+        GetModuleFileNameA(NULL, path, MAX_PATH);
+        char *lastSlash = strrchr(path, '\\');
+        if (lastSlash) {
+           *(lastSlash + 1) = '\0';
+        } char filePath[MAX_PATH];
+        snprintf(filePath, MAX_PATH, "%sdos\\krypton.py", path);
     } else {realpath("dos/shell.py", krydir);}
     loading();
     clear();
     
     //printf("%s\n", krydir);
-    snprintf(cmd, sizeof(cmd), "python3 %s", krydir);
+    snprintf(cmd, sizeof(cmd), "python3 \"%s\"", krydir);
     system(cmd);
     return 0;
 }// int main()

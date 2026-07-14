@@ -19,7 +19,7 @@ else:
         crls = crraw[int(i)]
 
         if os.name == 'nt':
-            if ":\\" in kls:
+            if ":\\" in todo:
                 cr = crls
             else:
                 cr = os.path.join(cwd, crls)
