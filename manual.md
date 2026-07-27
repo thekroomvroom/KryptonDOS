@@ -24,19 +24,18 @@ group.subcommand [arguments]
 
 #### **Subcommands for 'sys'**
 
-- abt **
+- *abt
 - yap
 
 #### **Subcommands for 'dir'**
 
-- wai (Displays your current directory location)
-- era {target file/directory} **
-- new {desired directory name} **
-- fnew {desired file name} **
-- rc {file/directory location} {desired file/directory location}
-- dupe
-- info
-- bin
+- *wai (Displays your current directory location)
+- *era {target file/directory} **
+- *new {desired directory name} **
+- *fnew {desired file name} **
+- *rc {file/directory location} {desired file/directory location}
+- *dupe
+- *bin
 
 #### **Subcommands for 'time'**
 
