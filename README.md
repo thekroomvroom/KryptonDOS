@@ -34,7 +34,8 @@ Batch scripts and POSIX shell scripts automate the process of compiling the Kryp
 
 Obtain the source code by either cloning the repository with `git clone https://github.com/thekroomvroom/KryptonDOS.git` in your terminal or downloading the project as a ZIP archive from GitHub.
 
-### Windows 🪟
+To run, type `python3 ./dos/shell.py` or `py .\dos\shell.py` to start the shell.
+<!-- ### Windows 🪟
 
 - Ensure that **Python 3.13** and the **PyUtil** python library is installed. If it is already not installed, open Command Prompt or PowerShell and run `winget install Python.Python3.13` for Python 3.13 and `pip install pyutil` for PyUtil.
 - Execute the `kry.cmd` batch file. Do not move the batch file to a different directory, as it must remain in its original location to function correctly.
@@ -52,11 +53,12 @@ Obtain the source code by either cloning the repository with `git clone https://
 
 - Ensure that **GCC** or **Clang** is installed. GCC is strongly recommended if you intend to use the automated build script.
 - Ensure that **Python 3** and the **PyUtil** Python library are installed. Python can be installed either through your distribution's package manager or downloaded from the official Python website. To install the PyUtil library, run `pip3 install pyutil` in the Terminal.
-- Compile `./dos/kry.c` manually either using Clang or GCC, or execute the automated build script `kry.sh`. Before running the script, ensure it has executable permissions by executing `chmod +x /path/to/kry.sh` in the Terminal.
+- Compile `./dos/kry.c` manually either using Clang or GCC, or execute the automated build script `kry.sh`. Before running the script, ensure it has executable permissions by executing `chmod +x /path/to/kry.sh` in the Terminal. -->
 
 ## Known Issues ⚠️
 
 - Certain commands documented in `manual.md` are not yet implemented and may not function as expected.
+- C launcher is not functional.
 
 ## Future Development Plans
 
