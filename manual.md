@@ -19,25 +19,25 @@ group.subcommand [arguments]
 
 - sys (Commands for modifying and inspecting system-based values)
 - dir (Commands for modifying and inspecting Directories and Files)
-- time (Commands for time-related actions)
+<!-- - time (Commands for time-related actions) -->
 - net
 
 #### **Subcommands for 'sys'**
 
-- *abt
-- yap
+- abt
+<!-- - yap -->
 
 #### **Subcommands for 'dir'**
 
-- *wai (Displays your current directory location)
-- *era {target file/directory} **
-- *new {desired directory name} **
-- *fnew {desired file name} **
-- *rc {file/directory location} {desired file/directory location}
-- *dupe
-- *bin
+- wai (Displays your current directory location)
+- era {target file/directory} **
+- new {desired directory name} **
+- fnew {desired file name} **
+- rc {file/directory location} {desired file/directory location}
+- dupe
+- bin
 
-#### **Subcommands for 'time'**
+<!-- #### **Subcommands for 'time'**
 
 - rf (reformats time format to your liking, follow the UI)
-- full
+- full -->

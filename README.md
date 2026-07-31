@@ -2,7 +2,7 @@
 
 ## What is KryptonDOS?
 
-KryptonDOS is a Command Line Interface (CLI) Shell written primarily on Python 3 programing language and the C programming language for its launcher. KryptonDOS is designed to run on top of primarily on POSIX-Compliant Shells and Windows Command Prompt or PowerShell — Certain Functions on Windows NT-Based Systems are not fully supported thus far. Its current purpose is to explore Shell Design and Command Parsing.
+KryptonDOS is a Command Line Interface (CLI) Shell written primarily on Python 3 programing language and the C Plus Plus programming language for its launcher. KryptonDOS is designed to run on top of primarily on POSIX-Compliant Shells and Windows Command Prompt or PowerShell — Certain Functions on Windows NT-Based Systems are not fully supported thus far. Its current purpose is to explore Shell Design and Command Parsing.
 
 The KryptonDOS Project is inspired by Microsoft Disk Operating System (MS-DOS) and the FreeDOS Project. It aims to recreate the classic command-line computing experience while introducing a more organized and intuitive command structure. The project also serves as a platform for exploring cross-platform shell development and modern systems programming concepts.
 
@@ -18,9 +18,9 @@ The KryptonDOS Project is inspired by Microsoft Disk Operating System (MS-DOS) a
 
 Python 3 is the primary programming language used to implement the KryptonDOS shell, its built-in commands, and bundled applications.
 
-### C (programming language) ⚙️
+### C++ (programming language) ⚙️
 
-C is used to develop the KryptonDOS shell launcher. The launcher provides a native executable that improves startup convenience and offers the experience of launching an application rather than executing a Python script directly.
+C++ is used to develop the KryptonDOS shell launcher. The launcher provides a native executable that improves startup convenience and offers the experience of launching an application rather than executing a Python script directly.
 
 ### JavaScript Object Notation (JSON) 🗂️
 
@@ -32,9 +32,7 @@ Batch scripts and POSIX shell scripts automate the process of compiling the Kryp
 
 ## How to get started
 
-Obtain the source code by either cloning the repository with `git clone https://github.com/thekroomvroom/KryptonDOS.git` in your terminal or downloading the project as a ZIP archive from GitHub.
-
-To run, type `python3 ./dos/shell.py` or `py .\dos\shell.py` to start the shell.
+go to projects and download the installer and run it.
 <!-- ### Windows 🪟
 
 - Ensure that **Python 3.13** and the **PsUtil** python library is installed. If it is already not installed, open Command Prompt or PowerShell and run `winget install Python.Python3.13` for Python 3.13 and `pip install psutil` for psutil.
@@ -58,7 +56,6 @@ To run, type `python3 ./dos/shell.py` or `py .\dos\shell.py` to start the shell.
 ## Known Issues ⚠️
 
 - Certain commands documented in `manual.md` are not yet implemented and may not function as expected.
-- C launcher is not functional.
 
 ## Future Development Plans
 
