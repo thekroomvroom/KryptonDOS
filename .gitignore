@@ -4,3 +4,5 @@ kry
 dos/kry.cpp
 dos/oldkry.c
 app/math/
+dos/shell.cpp
+main.exe

@@ -37,15 +37,15 @@ ascii_art = """
 """.splitlines()
 
 specs = [
-    f"\033[1;4m{sys.pm}@{sys.host}\033[0m\n",
-    f"\033[1mName:\033[0m {sys.name}",
-    f"\033[1mVersion:\033[0m {sys.ver}",
-    f"\033[1mVersion Codename:\033[0m {sys.cn}",
-    f"\033[1mID:\033[0m {sys.id}",
-    f"\033[1mHost:\033[0m {platform.system()} {platform.release} {platform.version}",
-    f"\033[1mCentral Processing Unit:\033[0m {platform.processor}",
-    f"\033[1mRandom-Access Memory:\033[0m {round(int(mem.used)/1000000000)}/{round(int(mem.total)/1000000000)} GB",
-    f"\033[1mLocal Disk:\033[0m {round(int(dsk.used)/1000000000)}/{round(int(dsk.total)/1000000000)} GB",
+    f"{sys.pm}@{sys.host}",
+    f"Name: {sys.name}",
+    f"Version: {sys.ver}",
+    f"Version Codename: {sys.cn}",
+    f"ID: {sys.id}",
+    f"Host: {platform.system()} {platform.release()} {platform.version()}",
+    f"CPU: {platform.processor()}",
+    f"Random-Access Memory: {round(int(mem.used)/1000000000)}/{round(int(mem.total)/1000000000)} GB",
+    f"Local Disk: {round(int(dsk.used)/1000000000)}/{round(int(dsk.total)/1000000000)} GB",
     " ",
     " ",
 ]

@@ -37,7 +37,7 @@ Obtain the source code by either cloning the repository with `git clone https://
 To run, type `python3 ./dos/shell.py` or `py .\dos\shell.py` to start the shell.
 <!-- ### Windows 🪟
 
-- Ensure that **Python 3.13** and the **PyUtil** python library is installed. If it is already not installed, open Command Prompt or PowerShell and run `winget install Python.Python3.13` for Python 3.13 and `pip install pyutil` for PyUtil.
+- Ensure that **Python 3.13** and the **PsUtil** python library is installed. If it is already not installed, open Command Prompt or PowerShell and run `winget install Python.Python3.13` for Python 3.13 and `pip install psutil` for psutil.
 - Execute the `kry.cmd` batch file. Do not move the batch file to a different directory, as it must remain in its original location to function correctly.
 
 > [!NOTE]
@@ -46,13 +46,13 @@ To run, type `python3 ./dos/shell.py` or `py .\dos\shell.py` to start the shell.
 ### macOS 🍎
 
 - Ensure that **Xcode Command Line Tools** and **Clang** are installed. Xcode can be installed from the official Mac App Store. To install the Xcode Command Line Tools, run `xcode-select --install` in the Terminal.
-- Ensure that **Python 3** and the **PyUtil** Python library are installed. Python can be downloaded from the official Python website. To install the PyUtil library, run `pip3 install pyutil` in the Terminal.
+- Ensure that **Python 3** and the **psutil** Python library are installed. Python can be downloaded from the official Python website. To install the psutil library, run `pip3 install psutil` in the Terminal.
 - Compile `./dos/kry.c` manually using Clang, or execute the automated build script `kry.sh`. Before running the script, ensure it has executable permissions by executing `chmod +x /path/to/kry.sh` in the Terminal.
 
-### Linux🐧 or BSD-Based Systems 😈
+### Linux🐧
 
 - Ensure that **GCC** or **Clang** is installed. GCC is strongly recommended if you intend to use the automated build script.
-- Ensure that **Python 3** and the **PyUtil** Python library are installed. Python can be installed either through your distribution's package manager or downloaded from the official Python website. To install the PyUtil library, run `pip3 install pyutil` in the Terminal.
+- Ensure that **Python 3** and the **psutil** Python library are installed. Python can be installed either through your distribution's package manager or downloaded from the official Python website. To install the psutil library, run `pip3 install psutil` in the Terminal.
 - Compile `./dos/kry.c` manually either using Clang or GCC, or execute the automated build script `kry.sh`. Before running the script, ensure it has executable permissions by executing `chmod +x /path/to/kry.sh` in the Terminal. -->
 
 ## Known Issues ⚠️
@@ -72,5 +72,6 @@ To run, type `python3 ./dos/shell.py` or `py .\dos\shell.py` to start the shell.
 
 ### Long-Term Goals
 
+- Code Rewritten in C and C++
 - Support for Microsoft Disk Operating System (MS-DOS) applications.
 - Evolve KryptonDOS from a Python-based command-line shell into a lightweight bare-metal operating system with a native C/Rust kernel.
