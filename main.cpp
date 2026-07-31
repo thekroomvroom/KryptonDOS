@@ -18,7 +18,7 @@ namespace fs = filesystem;
         return string(buffer);
     }
 #elif defined(__APPLE__)
-    #include <mac-o/dyld.h>
+    #include <mach-o/dyld.h>
     #include <vector>
     #include <unistd.h>
 
